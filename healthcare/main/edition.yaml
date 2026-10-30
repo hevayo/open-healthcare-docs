@@ -1,0 +1,5 @@
+# Open Healthcare: the unversioned Doc space's content.
+# Written by tools/rebuild/edition-folders.mjs (Edition layout: folders).
+schemaVersion: 1
+docSpace: healthcare
+name: Open Healthcare
