@@ -1,0 +1,26 @@
+# Doc space manifest of Open Healthcare (schemas/docspace.schema.json in the
+# Platform), from the approved model (.scratch/open-healthcare-model/map.md).
+schemaVersion: 1
+# Model decision 2: the Platform's placeholder slug, matching the old host
+# healthcare.docs.wso2.com.
+slug: healthcare
+# Model decision 3: the source's own "WSO2 Open Healthcare", without "WSO2".
+# Page text is not changed.
+displayName: Open Healthcare
+formerNames:
+  - Accelerator for Healthcare          # wso2.com/documentation's card, the Platform placeholder
+  - WSO2 Open Healthcare Accelerator    # the source's tagline
+  - Healthcare Solution                 # the source's site title
+# Model decision 4: the shared Solutions section, kept by the Platform team.
+home: solutions
+# Model decision 9: a placeholder team, still to be created.
+owners:
+  team: open-healthcare-docs
+repo: hevayo/open-healthcare-docs
+editLinks: true
+issues:
+  repo: wso2/open-healthcare-docs
+# Model decision 1: one Edition, no version selector, pages at
+# /healthcare/<path>/, no latest; built from the main line (docs-v2/main
+# behind the Site branch's branchPrefix docs-v2/).
+model: unversioned
